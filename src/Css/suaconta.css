@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300&family=Source+Sans+3:wght@200&family=Varela+Round&display=swap');
+
+:root {
+    --corp: white;
+    --cor0: #07f9a2;
+    --cor1: #09c184;
+    --cor2: #0a8967;
+    --cor3: #0c5149;
+    --cor4: #0d192b;
+    --cor5: #1c31a5;
+    --cor6: #101f78;
+    --cor7: #020f59;
+    --cor8: #010937;
+    --cor9: #000524;
+    
+    --fonte-padrão:'Source Sans 3', sans-serif;
+    --fonte-destaque:'Jost', sans-serif;
+    --fonte-título:'Valera Round', sans-serif;
+
+}
+
+body {
+    background-color: var(--cor4);
+    font-family: var(--fonte-padrão);
+}
+
+header {
+    top: 0;
+    padding: 15px 80px;
+    width: 90%;
+    border-bottom: 1px;
+    opacity: 0.91;
+    background-color: transparent;
+}
+
+header { 
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header > img {
+    text-decoration: none;
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    outline: none;
+    box-shadow: 3px 3px 0px;
+}
+
+svg {
+    color: var(--corp);
+    width: 30px;
+    height: 30px;
+    font-weight: bolder;
+    text-decoration: none;
+    transition-duration: 1.0;
+}
+
+svg:hover {
+    text-decoration: solid;
+    color: var(--cor9);
+}
